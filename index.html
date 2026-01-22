@@ -51,15 +51,22 @@
             /* Moved transform here to keep layout clean */
             transform: translateY(60px); 
         }
-
         .coming-soon {
             font-size: 48px;
             color: #FDE223;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            -webkit-text-stroke: 2px #F59F00;
+            font-weight: 900;
+            padding: 20px 35px;
             margin-bottom: 40px;
             z-index: 1;
             transform: translateY(-60px);
             text-align: center;
+            border-radius: 8px;
+            display: inline-block;
+            width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            text-shadow: 0 0 8px rgba(255, 255, 255, 0.8), 2px 2px 6px rgba(0, 0, 0, 0.15);
         }
 
         /* --- BAND BUTTON SECTION --- */
@@ -205,6 +212,19 @@
                         <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
                     </svg>
                     Ivory Blacks 19/03
+                </a>
+                <div class="button-shadow"></div>
+            </div>
+            <div style="width: 40px;"></div>
+            <div class="button-wrapper">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScJ2t8-q3J_gNzHvgWCw42pH0R8e05TTTzU0cJj7h8135crIg/viewform?usp=dialog" target="_blank" rel="noopener noreferrer" class="button">
+                    <svg class="star-left" viewBox="0 0 24 24">
+                        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                    </svg>
+                    <svg class="star-right" viewBox="0 0 24 24">
+                        <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                    </svg>
+                    Band Sign-Up
                 </a>
                 <div class="button-shadow"></div>
             </div>
